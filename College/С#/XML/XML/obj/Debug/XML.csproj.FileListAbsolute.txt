@@ -7,3 +7,6 @@ C:\Users\Администратор\Desktop\VS Project\Запись в файл\
 C:\Users\Администратор\Desktop\LearnProject\С#\XML\XML\bin\Debug\XML.exe.config
 C:\Users\Администратор\Desktop\LearnProject\С#\XML\XML\obj\Debug\XML.exe
 C:\Users\Администратор\Desktop\LearnProject\С#\XML\XML\obj\Debug\XML.pdb
+C:\Users\Администратор\Desktop\LearnProject\College\С#\XML\XML\bin\Debug\XML.exe.config
+C:\Users\Администратор\Desktop\LearnProject\College\С#\XML\XML\obj\Debug\XML.exe
+C:\Users\Администратор\Desktop\LearnProject\College\С#\XML\XML\obj\Debug\XML.pdb
