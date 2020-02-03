@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE gcapaper PUBLIC "-//GCA//DTD GCAPAP-X DTD 20020220 Vers 6.1//EN" "http://www.altova.com/schemas/gcapaper/gcapaper.dtd">
+     <gcapaper secnumbers="0">
+	<front>
+		<title>[PAPER TITLE]</title>
+		<author>
+			<fname/>
+			<surname/>
+			<address>
+				<affil/>
+				<country/>
+			</address>
+			<bio>
+				<para>[BIOGRAPHY]</para>
+			</bio>
+		</author>
+	</front>
+	<body>
+		<section>
+			<title>[SECTION TITLE]</title>
+			<para>[SECTION CONTENT]</para>
+		</section>
+	</body>
+</gcapaper>

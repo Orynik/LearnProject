@@ -1,0 +1,41 @@
+document		::=	prolog element misc*												>3DML Document
+prolog			::=	xmlDecl? misc* (doctypedecl misc*)?									>Document Prolog (XML Declaration + Document Type)
+xmlDecl$		::=	'<?xml' (S attribute)* S? '?>'										>XML Declaration (<?xml...?>)
+misc			::=	comment | S															>Comment or Whitespace
+doctypedecl$	::=	'<!DOCTYPE' S DocTypeName (S externalID)? S? '>'					>Document Type Declaration (<!DOCTYPE...>)
+DocTypeName		::= Name																>Document Type Name
+element			::= emptyElemTag | realElemTag											>Element (<Element>...)
+realElemTag$	::= sTag content eTag { ElementName = ElementNameEnd }					>Element (<Element>...)
+sTag			::=	'<' S? ElementName (S attribute)* S? '>'							>Element Start Tag (<Element>)
+attribute$		::=	AttName Eq attQValue												>Attribute (attribute="value")
+Eq!				::=	S? '=' S?															>Equal sign ('=')
+eTag			::= '</' ElementNameEnd S? '>'											>Element End Tag (</Element>)
+content$		::=	( element | comment | TextData | S? )*								>Element Content (Element | Comment | Text Data | Whitespace)
+TextData		::= S* CharNoWhite CharData*											>Text Data
+emptyElemTag$	::= '<' S? ElementName (S attribute)* S? '/>'							>Empty Element (<Element/>)
+ElementName		::= Name																>Element Name
+ElementNameEnd	::= Name																>closing element name
+externalID$		::= (ExtIDNameSys S ExtIDTextSys) | (ExtIDNamePub S ExtIDTextPub)		>External-ID ('SYSTEM' System-Literal | 'PUBLIC' Pubid-Literal System-Literal)
+ExtIDNameSys	::= 'SYSTEM'															>'SYSTEM'
+ExtIDTextSys	::= SystemLiteral														>System-Literal
+ExtIDNamePub	::= 'PUBLIC'															>'PUBLIC'
+ExtIDTextPub	::= PubidLiteral S SystemLiteral										>Pubid-Literal System-Literal
+S!				::=	(#x20 | #x09 | #x0D | #x0A)+										>Whitespace (Blank, Tab, CR, LF)
+AttName			::=	Name																>Attribute Name
+Name			::= (Letter | '_' | ':') (NameChar)*									>Name ( (Letter | '_' | ':') (Name-Character)* )
+NameChar		::= Letter | Digit | '.' | '-' | '_' | ':'								>Name-Character (Letter | Digit | '.' | '-' | '_' | ':')
+attQValue		::=	('"' AttValue1 '"') | ("'" AttValue2 "'")							>Quoted Attribute Value ("value" | 'value')
+AttValue1		::= ([^<"])*															>Attribute Value
+AttValue2		::= ([^<'])*															>Attribute Value
+SystemLiteral	::= ('"' [^"]* '"') | ("'" [^']* "'")									>System Literal
+PubidLiteral	::= ('"' PubidChar* '"') | ("'" (PubidCharNoQu)* "'")					>Pubid Literal
+PubidChar!		::= #x20 | #x0D | #x0A | [a-zA-Z0-9] | [-'()+,./:=?;!*#@$_%]			>Pubid Character
+PubidCharNoQu!	::= #x20 | #x0D | #x0A | [a-zA-Z0-9] | [-()+,./:=?;!*#@$_%]				>Pubid Character (no quotes)
+CharData		::=	[^<]																>Character Data
+CharNoWhite!	::=	[^<#x20#x09#x0D#x0A]												>Character (may not contain Whitespaces)
+comment			::=	'<!--' CommentText '-->'											>Comment (<!-- Text -->)
+CommentText		::= ((CharNoDash) | ('-' (CharNoDash)))*								>Comment Text (may not contain '--')
+CharNoDash!		::=	#x09 | #x0A | #x0D | [#x20-#x2C] | [#x2E-#xFF]						>Character (no dash)
+Digit!			::=	[#x30-#x39]															>Digit ([0-9])
+Letter!			::=	[#x41-#x5A] | [#x61-#x7A] | [#xC0-#xD6] | [#xD8-#xF6] | [#xF8-#xFF]	>Letter ([a-zA-Z], etc)
+

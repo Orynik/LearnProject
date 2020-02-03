@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v5 beta 3 U (http://www.xmlspy.com) by John D Judy (Altova, Inc.) -->
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" xmlns:spy="http://www.altova.com/catalog_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:entity:xmlns:xml:catalog
+Catalog.xsd">
+	<public publicId="-//W3C//DTD XMLSCHEMA 19991216//EN" uri="schemas/schema/W3C_1999/XMLSchemaApr7.dtd"/>
+	<public publicId="-//W3C//DTD XMLSCHEMA 200010//EN" uri="schemas/schema/W3C_2000_10/XMLSchemaCR.dtd"/>
+	<public publicId="-//W3C//DTD XMLSCHEMA 200102//EN" uri="schemas/schema/W3C_2001/XMLSchema.xsd"/>
+	<public publicId="-//W3C//DTD XHTML 1.0 Transitional//EN" uri="schemas/xhtml/xhtml1-transitional.dtd"/>
+	<public publicId="-//W3C//DTD XHTML 1.0 Strict//EN" uri="schemas/xhtml/xhtml1-strict.dtd"/>
+	<uri name="http://www.w3.org/1999/XMLSchema" uri="schemas/schema/W3C_1999/XMLSchemaApr7.dtd"/>
+	<uri name="http://www.w3.org/2000/10/XMLSchema" uri="schemas/schema/W3C_2000_10/XMLSchemaCR.dtd"/>
+	<uri name="http://www.w3.org/2001/XMLSchema" uri="schemas/schema/W3C_2001/XMLSchema.xsd"/>
+	<uri name="urn:schemas-microsoft-com:xml-data" uri="schemas/schema/XDR/xml-data.dtd"/>
+	<uri name="http://www.w3.org/Schemas/DCD" uri="schemas/schema/DCD/dcd.dtd"/>
+	<!--WSDL Section-->
+	<uri name="http://schemas.xmlsoap.org/wsdl/" uri="schemas/wsdl/wsdl.xsd"/>
+	<uri name="http://schemas.xmlsoap.org/wsdl/http/" uri="schemas/wsdl/http.xsd"/>
+	<uri name="http://schemas.xmlsoap.org/wsdl/soap/" uri="schemas/wsdl/soap.xsd"/>
+	<uri name="http://schemas.xmlsoap.org/soap/encoding/" uri="schemas/wsdl/encoding.xsd"/>
+	<uri name="http://schemas.xmlsoap.org/wsdl/mime/" uri="schemas/wsdl/mime.xsd"/>
+	<!--XML Catalog data for DocBook XML V4.2-->
+	<!--DocBook driver file-->
+	<public publicId="-//OASIS//DTD DocBook XML V4.2//EN" uri="schemas/DocBook/docbookx.dtd"/>
+	<rewriteURI uriIdStartString="http://www.oasis-open.org/docbook/xml/4.2/" rewritePrefix="schemas/DocBook/"/>
+	<!--DocBook modules-->
+	<public publicId="-//OASIS//DTD DocBook CALS Table Model V4.2//EN" uri="schemas/DocBook/calstblx.dtd"/>
+	<public publicId="-//OASIS//DTD XML Exchange Table Model 19990315//EN" uri="schemas/DocBook/soextblx.dtd"/>
+	<public publicId="-//OASIS//ELEMENTS DocBook Information Pool V4.2//EN" uri="schemas/DocBook/dbpoolx.mod"/>
+	<public publicId="-//OASIS//ELEMENTS DocBook Document Hierarchy V4.2//EN" uri="schemas/DocBook/dbhierx.mod"/>
+	<public publicId="-//OASIS//ENTITIES DocBook Additional General Entities V4.2//EN" uri="schemas/DocBook/dbgenent.mod"/>
+	<public publicId="-//OASIS//ENTITIES DocBook Notations V4.2//EN" uri="schemas/DocBook/dbnotnx.mod"/>
+	<public publicId="-//OASIS//ENTITIES DocBook Character Entities V4.2//EN" uri="schemas/DocBook/dbcentx.mod"/>
+	<!--ISO entity sets-->
+	<public publicId="ISO 8879:1986//ENTITIES Diacritical Marks//EN//XML" uri="schemas/DocBook/ent/iso-dia.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN//XML" uri="schemas/DocBook/ent/iso-num.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Publishing//EN//XML" uri="schemas/DocBook/ent/iso-pub.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES General Technical//EN//XML" uri="schemas/DocBook/ent/iso-tech.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Latin 1//EN//XML" uri="schemas/DocBook/ent/iso-lat1.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Latin 2//EN//XML" uri="schemas/DocBook/ent/iso-lat2.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Greek Letters//EN//XML" uri="schemas/DocBook/ent/iso-grk1.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Monotoniko Greek//EN//XML" uri="schemas/DocBook/ent/iso-grk2.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Greek Symbols//EN//XML" uri="schemas/DocBook/ent/iso-grk3.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Alternative Greek Symbols//EN//XML" uri="schemas/DocBook/ent/iso-grk4.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Arrow Relations//EN//XML" uri="schemas/DocBook/ent/iso-amsa.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Binary Operators//EN//XML" uri="schemas/DocBook/ent/iso-amsb.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Delimiters//EN//XML" uri="schemas/DocBook/ent/iso-amsc.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Negated Relations//EN//XML" uri="schemas/DocBook/ent/iso-amsn.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Ordinary//EN//XML" uri="schemas/DocBook/ent/iso-amso.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Relations//EN//XML" uri="schemas/DocBook/ent/iso-amsr.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Box and Line Drawing//EN//XML" uri="schemas/DocBook/ent/iso-box.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Russian Cyrillic//EN//XML" uri="schemas/DocBook/ent/iso-cyr1.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Non-Russian Cyrillic//EN//XML" uri="schemas/DocBook/ent/iso-cyr2.ent"/>
+	<!--End of catalog data for DocBook XML V4.2-->
+	<!--NewsML Section-->
+	<public publicId="urn:newsml:iptc.org:20001006:NewsMLv1.0.dtd:1" uri="schemas/NewsML/NewsMLv1.0.dtd"/>
+	<!--NITF Section-->
+	<public publicId="-//IPTC//NITF DTD 3.1//EN" uri="schemas/NITF/nitf-3-1.dtd"/>
+	<!--USPTO Red Book Section-->
+	<public publicId="-//USPTO//DTD PAP V1.6 2002-01-01//EN" uri="schemas/uspto/pap-v16-2002-01-01.dtd"/>
+	<public publicId="-//USPTO//DTD TEAM Project specification-2000-10-16 Doctype//EN" uri="schemas/uspto/u-specif.dtd"/>
+	<public publicId="-//USPTO//DTD ST.32 US PATENT GRANT V2.5 2002-01-01//EN" uri="schemas/uspto/st32-us-grant-025xml.dtd"/>
+	<!--SVG Secion-->
+	<public publicId="-//W3C//DTD SVG 1.0//EN" uri="schemas/svg/svg10.dtd"/>
+	<!-- P3P Section -->
+	<uri name="http://www.w3.org/2002/01/P3Pv1" uri="schemas/p3p/p3pv1.xsd"/>
+	<!-- WML Section -->
+	<public publicId="-//WAPFORUM//DTD WML 2.0//EN" uri="schemas/wml/wml20-flat.dtd"/>
+	<public publicId="-//WAPFORUM//ENTITIES WML Modular Framework 1.0//EN" uri="schemas/wml/wml-framework-1.mod"/>
+	<public publicId="-//WAPFORUM//ENTITIES WML Qualified Names 1.0//EN" uri="schemas/wml/wml-qname-1.mod"/>
+	<public publicId="-//WAPFORUM//ENTITIES WML 2.0 Document Model 1.0//EN" uri="schemas/wml/wml20-model-1.mod"/>
+	<public publicId="-//WAPFORUM//ELEMENTS WML Special 1.0//EN" uri="schemas/wml/wml-special-1.mod"/>
+	<public publicId="-//WAPFORUM//ELEMENTS WML Deprecated 1.0//EN" uri="schemas/wml/wml-deprecated-1.mod"/>
+	<!-- TLD Section -->
+	<public publicId="-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" uri="schemas/tld/web-jsptaglibrary_1_2.dtd"/>
+	<!--MathML2 Section -->
+	<public publicId="-//W3C//DTD MathML 2.0//EN" uri="schemas/math/mathml2.dtd"/>
+	<public publicId="-//W3C//ENTITIES MathML 2.0 Qualified Names 1.0//EN" uri="schemas/math/mathml2-qname-1.mod"/>
+	<public publicId="-//W3C//ENTITIES Added Math Symbols: Arrow Relations for MathML 2.0//EN" uri="schemas/math/isoamsa.ent"/>
+	<public publicId="-//W3C//ENTITIES Added Math Symbols: Binary Operators for MathML 2.0//EN" uri="schemas/math/isoamsb.ent"/>
+	<public publicId="-//W3C//ENTITIES Added Math Symbols: Delimiters for MathML 2.0//EN" uri="schemas/math/isoamsc.ent"/>
+	<public publicId="-//W3C//ENTITIES Added Math Symbols: Negated Relations for MathML 2.0//EN" uri="schemas/math/isoamsn.ent"/>
+	<public publicId="-//W3C//ENTITIES Added Math Symbols: Ordinary for MathML 2.0//EN" uri="schemas/math/isoamso.ent"/>
+	<public publicId="-//W3C//ENTITIES Added Math Symbols: Relations for MathML 2.0//EN" uri="schemas/math/isoamsr.ent"/>
+	<public publicId="-//W3C//ENTITIES Greek Symbols for MathML 2.0//EN" uri="schemas/math/isogrk3.ent"/>
+	<public publicId="-//W3C//ENTITIES Math Alphabets: Fraktur for MathML 2.0//EN" uri="schemas/math/isomfrk.ent"/>
+	<public publicId="-//W3C//ENTITIES Math Alphabets: Open Face for MathML 2.0//EN" uri="schemas/math/isomopf.ent"/>
+	<public publicId="-//W3C//ENTITIES Math Alphabets: Script for MathML 2.0//EN" uri="schemas/math/isomscr.ent"/>
+	<public publicId="-//W3C//ENTITIES General Technical for MathML 2.0//EN" uri="schemas/math/isotech.ent"/>
+	<public publicId="-//W3C//ENTITIES Box and Line Drawing for MathML 2.0//EN" uri="schemas/math/isobox.ent"/>
+	<public publicId="-//W3C//ENTITIES Russian Cyrillic for MathML 2.0//EN" uri="schemas/math/isocyr1.ent"/>
+	<public publicId="-//W3C//ENTITIES Non-Russian Cyrillic for MathML 2.0//EN" uri="schemas/math/isocyr2.ent"/>
+	<public publicId="-//W3C//ENTITIES Diacritical Marks for MathML 2.0//EN" uri="schemas/math/isodia.ent"/>
+	<public publicId="-//W3C//ENTITIES Added Latin 1 for MathML 2.0//EN" uri="schemas/math/isolat1.ent"/>
+	<public publicId="-//W3C//ENTITIES Added Latin 2 for MathML 2.0//EN" uri="schemas/math/isolat2.ent"/>
+	<public publicId="-//W3C//ENTITIES Numeric and Special Graphic for MathML 2.0//EN" uri="schemas/math/isonum.ent"/>
+	<public publicId="-//W3C//ENTITIES Publishing for MathML 2.0//EN" uri="schemas/math/isopub.ent"/>
+	<public publicId="-//W3C//ENTITIES Extra for MathML 2.0//EN" uri="schemas/math/mmlextra.ent"/>
+	<public publicId="-//W3C//ENTITIES Aiases for MathML 2.0//EN" uri="schemas/math/mmlalias.ent"/>
+	<!-- MTX Section -->
+	<uri name="http://www.viewpoint.com" uri="schemas/mtx/mtx_schema_1_0.xsd"/>
+	<!-- SMIL Section -->
+	<public publicId="-//W3C//DTD SMIL 1.0//EN" uri="schemas/smil/SMIL10.dtd"/>
+	<!-- Dita Section -->
+	<public publicId="-//IBM//DTD DITA Concept//EN" uri="schemas/dita/concept.dtd"/>
+	<public publicId="-//IBM//ELEMENTS DITA Concept//EN" uri="schemas/dita/concept.mod"/>
+	<public publicId="-//IBM//DTD DITA Composite//EN" uri="schemas/dita/ditabase.dtd"/>
+	<public publicId="-//IBM//DTD DITA Reference//EN" uri="schemas/dita/reference.dtd"/>
+	<public publicId="-//IBM//ELEMENTS DITA Reference//EN" uri="schemas/dita/reference.mod"/>
+	<public publicId="-//IBM//DTD DITA Task//EN" uri="schemas/dita/task.dtd"/>
+	<public publicId="-//IBM//ELEMENTS DITA Task//EN" uri="schemas/dita/task.mod"/>
+	<public publicId="-//IBM//DTD DITA Topic//EN" uri="schemas/dita/topic.dtd"/>
+	<public publicId="-//IBM//ELEMENTS DITA Topic//EN" uri="schemas/dita/topic.mod"/>
+	<public publicId="-//IBM//ENTITIES DITA Topic Class//EN" uri="schemas/dita/topic_class.ent"/>
+	<public publicId="-//IBM//ENTITIES DITA Topic Definitions//EN" uri="schemas/dita/topic_defn.ent"/>
+	<public publicId="-//IBM//DTD DITA Element Reference//EN" uri="schemas/dita/elementref.dtd"/>
+	<public publicId="-//IBM//ELEMENTS DITA Element Reference//EN" uri="schemas/dita/elementref.mod"/>
+	<public publicId="-//IBM//ELEMENTS DITA Element Group//EN" uri="schemas/dita/elemgroup.mod"/>
+	<public publicId="-//IBM//DTD DITA Map//EN" uri="schemas/dita/map.dtd"/>
+	<!-- GCAPAPER Section -->
+	<public publicId="-//GCA//DTD GCAPAP-X DTD 20020220 Vers 6.1//EN" uri="schemas/gcapaper/gcapaper.dtd"/>
+	<!-- GCAPAPER mod Section -->
+	<public publicId="-//W3C//ELEMENTS XHTML Inline Presentation 1.0//EN" uri="schemas/gcapaper/xhtml-inlpres-1.mod"/>
+	<public publicId="-//W3C//ELEMENTS XHTML Tables 1.0//EN" uri="schemas/gcapaper/xhtml-table-1.mod"/>
+	<!-- GCAPAPER ent Section -->
+	<public publicId="ISO 8879:1986//ENTITIES Diacritical Marks//EN//XML" uri="schemas/gcapaper/isodia.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN//XML" uri="schemas/gcapaper/isonum.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Publishing//EN//XML" uri="schemas/gcapaper/isopub.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES General Technical//EN//XML" uri="schemas/gcapaper/isotech.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Latin 1//EN//XML" uri="schemas/gcapaper/isolat1.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Latin 2//EN//XML" uri="schemas/gcapaper/isolat2.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Greek Letters//EN//XML" uri="schemas/gcapaper/isogrk1.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Monotoniko Greek//EN//XML" uri="schemas/gcapaper/isogrk2.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Greek Symbols//EN//XML" uri="schemas/gcapaper/isogrk3.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Alternative Greek Symbols//EN//XML" uri="schemas/gcapaper/isogrk4.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Arrow Relations//EN//XML" uri="schemas/gcapaper/isoamsa.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Binary Operators//EN//XML" uri="schemas/gcapaper/isoamsb.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Delimiters//EN//XML" uri="schemas/gcapaper/isoamsc.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Negated Relations//EN//XML" uri="schemas/gcapaper/isoamsn.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Ordinary//EN//XML" uri="schemas/gcapaper/isoamso.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Math Symbols: Relations//EN//XML" uri="schemas/gcapaper/isoamsr.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Box and Line Drawing//EN//XML" uri="schemas/gcapaper/isobox.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Russian Cyrillic//EN//XML" uri="schemas/gcapaper/isocyr1.ent"/>
+	<public publicId="ISO 8879:1986//ENTITIES Non-Russian Cyrillic//EN//XML" uri="schemas/gcapaper/isocyr2.ent"/>
+	<!-- W3C xmlspec Section -->
+	<public publicId="-//W3C//DTD Specification V2.2//EN" uri="schemas/xmlspec/xmlspec.dtd"/>
+	<!-- TEI Lite Section -->
+	<public publicId="-//TEI//DTD TEI Lite XML ver. 1.1//EN" uri="schemas/teilite/teixlite.dtd"/>
+	<!-- xmlresume section -->
+	<public publicId="-//Sean Kelly//DTD Resume 1.5.1//EN" uri="schemas/xmlresume/resume.dtd"/>
+	<public publicId="ISO 8879:1986//ENTITIES Added Latin 1//EN//XML" uri="schemas/xmlresume/iso-lat1.ent"/>
+	<!-- TEI Catalog files -->
+	<public publicId="-//TEI P4//ELEMENTS Additional Element Set for Simple Analysis//EN" uri="schemas/tei/teiana2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Element Classes for Simple Analysis//EN" uri="schemas/tei/teiana2.ent"/>
+	<public publicId="-//TEI P4//ELEMENTS Back Matter//EN" uri="schemas/tei/teiback2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES TEI ElementClasses//EN" uri="schemas/tei/teiclas2.ent"/>
+	<public publicId="-//TEI P4//ELEMENTS Core Elements//EN" uri="schemas/tei/teicore2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Front Matter//EN" uri="schemas/tei/teifron2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS TEI Header//EN" uri="schemas/tei/teihdr2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Default Text Structure//EN" uri="schemas/tei/teistr2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Additional Element Set for Certainty and Responsibility//EN" uri="schemas/tei/teicert2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Additional Element Set for Language Corpora//EN" uri="schemas/tei/teicorp2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Base Element Set for Print Dictionaries//EN" uri="schemas/tei/teidict2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Element Classes for Print Dictionaries//EN" uri="schemas/tei/teidict2.ent"/>
+	<public publicId="-//TEI P4//ELEMENTS Base Element Set for Drama 2001-12//EN" uri="schemas/tei/teidram2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Element Classes for Drama//EN" uri="schemas/tei/teidram2.ent"/>
+	<public publicId="-//TEI P4//ELEMENTS Additional Element Set for Tables, Formulae, and Graphics//EN" uri="schemas/tei/teifig2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Formulae Notations and Contents//EN" uri="schemas/tei/teifig2.ent"/>
+	<public publicId="-//TEI P4//DTD Auxiliary Document Type:  Feature System Declaration//EN" uri="schemas/tei/teifsd2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Additional Element Set for Feature Structure Annotation//EN" uri="schemas/tei/teifs2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS General Base Element Set//EN" uri="schemas/tei/teigen2.dtd"/>
+	<public publicId="-//TEI P4//DTD Main DTD Driver File//EN" uri="schemas/tei/tei2.dtd"/>
+	<public publicId="-//TEI P4//DTD Main Document Type//EN" uri="schemas/tei/tei2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Generic Identifiers//EN" uri="schemas/tei/teigis2.ent"/>
+	<public publicId="-//TEI P4//ENTITIES TEI Keywords//EN" uri="schemas/tei/teikey2.ent"/>
+	<public publicId="-//TEI P4//ELEMENTS Additional Element Set for Linking, Segmentation, and Alignment//EN" uri="schemas/tei/teilink2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Element Classes for Linking, Segmentation, and Alignment//EN" uri="schemas/tei/teilink2.ent"/>
+	<public publicId="-//TEI P4//ELEMENTS Base Element Set for Mixed Text Types//EN" uri="schemas/tei/teimix2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Additional Element Set for Names and Dates//EN" uri="schemas/tei/teind2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Element Classes for Names and Dates//EN" uri="schemas/tei/teind2.ent"/>
+	<public publicId="-//TEI P4//ELEMENTS Additional Element Set for Graphs, Networks, and Trees//EN" uri="schemas/tei/teinet2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Base Element Set for Prose//EN" uri="schemas/tei/teipros2.dtd"/>
+	<public publicId="-//TEI P4//DTD Auxiliary Document Type: Independent TEI Header//EN" uri="schemas/tei/teishd2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Base Element Set for Transcriptions of Speech//EN" uri="schemas/tei/teispok2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Element Classes for Transcriptions of Speech//EN" uri="schemas/tei/teispok2.ent"/>
+	<public publicId="-//TEI P4//ELEMENTS Additional Element Set for Text-Critical Apparatus//EN" uri="schemas/tei/teitc2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Element Classes for Critical Apparatus//EN" uri="schemas/tei/teitc2.ent"/>
+	<public publicId="-//TEI P4//ELEMENTS Base Element Set for Terminological Data//EN" uri="schemas/tei/teiterm2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Element Classes for Terminological Data//EN" uri="schemas/tei/teiterm2.ent"/>
+	<public publicId="-//TEI P4//ELEMENTS Terminological Databases (Flat)//EN" uri="schemas/tei/teite2f.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Terminological Databases (Nested)//EN" uri="schemas/tei/teite2n.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Additional Element Set for Transcription of Primary Sources//EN" uri="schemas/tei/teitran2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Element Classes for Transcription of Primary Sources//EN" uri="schemas/tei/teitran2.ent"/>
+	<public publicId="-//TEI P4//DTD Auxiliary Document Type: Tag Set Documentation//EN" uri="schemas/tei/teitsd2.dtd"/>
+	<public publicId="-//TEI P4//ELEMENTS Base Element Set for Verse//EN" uri="schemas/tei/teivers2.dtd"/>
+	<public publicId="-//TEI P4//ENTITIES Element Classes for Verse//EN" uri="schemas/tei/teivers2.ent"/>
+	<public publicId="-//TEI P4//DTD Auxiliary Document Type: Writing System Declaration//EN" uri="schemas/tei/teiwsd2.dtd"/>
+	<public publicId="-//TEI P4//DTD Concurrent Document Type: Pages and Lines//EN" uri="schemas/tei/teipl2.dtd"/>
+	<!--Java Section-->
+	<public publicId="-//Sun Microsystems, Inc.//DTD Connector 1.0//EN" uri="schemas/java/connector_1_0.dtd"/>
+	<public publicId="-//Sun Microsystems, Inc.//DTD J2EE Application 1.3//EN" uri="schemas/java/application_1_3.dtd"/>
+	<public publicId="-//Sun Microsystems, Inc.//DTD J2EE Application Client 1.3//EN" uri="schemas/java/application-client_1_3.dtd"/>
+	<public publicId="-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN" uri="schemas/java/ejb-jar_2_0.dtd"/>
+	<public publicId="-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" uri="schemas/java/web-app_2_3.dtd"/>
+	<!--Remapping of folders-->
+	<rewriteURI uriIdStartString="http://www.altova.com/sps/" rewritePrefix="sps/"/>
+	<rewriteURI uriIdStartString="http://www.altova.com/schemas/" rewritePrefix="schemas/"/>
+	<rewriteURI uriIdStartString="http://www.altova.com/stylesheets/" rewritePrefix="stylesheets/"/>
+	<!--File Extension specific schemas-->
+	<spy:fileExtHelper ext="xsl" uri="schemas/xsl/def_xsl.dtd"/>
+	<spy:fileExtHelper ext="xslt" uri="schemas/xsl/def_xslt.dtd"/>
+	<spy:fileExtHelper ext="fo" uri="schemas/xsl/def_fo.dtd"/>
+	<spy:fileExtHelper ext="htm" uri="schemas/xhtml/xhtml1-transitional.dtd"/>
+	<spy:fileExtHelper ext="html" uri="schemas/xhtml/xhtml1-transitional.dtd"/>
+	<spy:fileExtHelper ext="xhtml" uri="schemas/xhtml/xhtml1-transitional.dtd"/>
+	<spy:fileExtHelper ext="jsp" uri="schemas/java/jsp.dtd"/>
+	<spy:fileExtSchema ext="wsdl" uri="schemas/wsdl/wsdl.xsd"/>
+</catalog>

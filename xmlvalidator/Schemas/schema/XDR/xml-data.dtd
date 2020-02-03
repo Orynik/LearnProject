@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.0b3 NT (http://www.xmlspy.com) by ALF (NASA) -->
+<!-- The possible element datatypes according to http://msdn.microsoft.com/xml/schema/reference/datatypes.asp -->
+<!ENTITY % datatypes "(entity | entities | enumeration | id | idref | idrefs | nmtoken | nmtokens | notation | string | bin.base64 | bin.hex | boolean | char | date | dateTime | dateTime.tz | fixed.14.4 | float | int | number | time | time.tz | i1 | i2 | i4 | i8 | r4 | r8 | ui1 | ui2 | ui4 | ui8 | uri | uuid)">
+<!-- *** datatype **** -->
+<!ELEMENT datatype (description)*>
+<!ATTLIST datatype
+	dt:type %datatypes; #IMPLIED
+	xmlns:dt CDATA #FIXED "urn:schemas-microsoft-com:datatypes"
+>
+<!-- ***** description ***** -->
+<!ELEMENT description (#PCDATA)>
+<!-- **** element ***** -->
+<!-- additional constraint on maxOccurs is that it must be 1 or "*" -->
+<!ELEMENT element (description)*>
+<!ATTLIST element
+	type NMTOKEN #REQUIRED
+	minOccurs CDATA #IMPLIED
+	maxOccurs CDATA #IMPLIED
+>
+<!-- **** attribute ***** -->
+<!ELEMENT attribute (description)*>
+<!ATTLIST attribute
+	type NMTOKEN #REQUIRED
+	default CDATA #IMPLIED
+	required (yes | no) "no"
+>
+<!-- **** AttributeType ***** -->
+<!ELEMENT AttributeType (datatype | description)*>
+<!ATTLIST AttributeType
+	name NMTOKEN #REQUIRED
+	default CDATA #IMPLIED
+	dt:type %datatypes; #IMPLIED
+	dt:values CDATA #IMPLIED
+	dt:minLength CDATA #IMPLIED
+	dt:maxLength CDATA #IMPLIED
+	required (yes | no) #IMPLIED
+	xmlns:dt CDATA #FIXED "urn:schemas-microsoft-com:datatypes"
+>
+<!-- **** ElementType ***** -->
+<!ELEMENT ElementType (datatype | description | AttributeType | attribute | element | group)*>
+<!ATTLIST ElementType
+	name NMTOKEN #REQUIRED
+	model (open | closed) #IMPLIED
+	content (empty | textOnly | eltOnly | mixed) #IMPLIED
+	order (one | seq | many) #IMPLIED
+	dt:type %datatypes; #IMPLIED
+	dt:values CDATA #IMPLIED
+	dt:minLength CDATA #IMPLIED
+	dt:maxLength CDATA #IMPLIED
+	required (yes | no) #IMPLIED
+	xmlns:dt CDATA #FIXED "urn:schemas-microsoft-com:datatypes"
+>
+<!-- **** group ***** -->
+<!ELEMENT group (group | element | description)*>
+<!ATTLIST group
+	minOccurs CDATA #IMPLIED
+	maxOccurs CDATA #IMPLIED
+	order (one | seq | many) #IMPLIED
+>
+<!-- **** Schema ***** -->
+<!ELEMENT Schema (AttributeType | ElementType | description)*>
+<!ATTLIST Schema
+	name CDATA #IMPLIED
+	xmlns CDATA #FIXED "urn:schemas-microsoft-com:xml-data"
+	xmlns:dt CDATA #FIXED "urn:schemas-microsoft-com:datatypes"
+>

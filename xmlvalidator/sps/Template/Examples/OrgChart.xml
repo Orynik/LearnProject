@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Vladislav Gavrielov (Altova) -->
+<OrgChart xmlns="http://www.xmlspy.com/schemas/orgchart" xmlns:ipo="http://www.altova.com/IPO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CompanyLogo/>
+	<Name>Organization Chart</Name>
+	<Office>
+		<Name>Enter the company name here</Name>
+		<Desc><para>Enter the company description here</para></Desc>
+		<Address>
+			<ipo:street/>
+			<ipo:city/>
+			<ipo:state/>
+			<ipo:zip/>
+		</Address>
+		<Phone/>
+		<Fax/>
+		<EMail/>
+		<WebStore/>
+		<CustomerSupport/>
+		<Department>
+			<Name>Enter the department name here</Name>
+			<Person>
+				<First/>
+				<Last/>
+				<PhoneExt/>
+				<EMail/>
+			</Person>
+		</Department>
+	</Office>
+</OrgChart>

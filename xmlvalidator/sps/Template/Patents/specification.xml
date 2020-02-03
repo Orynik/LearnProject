@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xmlspysps http://www.altova.com/sps/template/patents/specification.sps?>
+<!DOCTYPE specification PUBLIC "-//USPTO//DTD TEAM Project specification-2000-10-16 Doctype//EN" "http://www.altova.com/schemas/uspto/u-specif.dtd">
+<?xml-stylesheet type="text/xsl" href="http://www.altova.com/stylesheets/uspto/specification.xsl"?>
+<specification id="specfication">
+	<spec.title-block>
+		<spec.title/>
+		<spec.version/>
+	</spec.title-block>
+	<specification-block>
+		<title-of-invention id="title-of-invention"></title-of-invention>
+		<detailed-description id="detailed-decription">
+			<heading id="h1"></heading>
+			<paragraph id="p1" number="0001"></paragraph>
+		</detailed-description>
+		<claims>
+			<heading id="h2"></heading>
+			<claim id="c1" number="1">
+				<claim-text></claim-text>
+			</claim>
+		</claims>
+		<abstract-of-disclosure id="abstract-of-disclosure">
+			<heading id="h3"></heading>
+			<paragraph id="p2" number="0002"></paragraph>
+		</abstract-of-disclosure>
+	</specification-block>
+</specification>

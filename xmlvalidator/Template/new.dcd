@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCD xmlns="http://www.w3.org/Schemas/DCD" xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<ElementDef Type="ENTER_NAME_OF_ROOT_ELEMENT_HERE" Model="Empty"/>
+</DCD>

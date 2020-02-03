@@ -1,0 +1,60 @@
+IBM DARWIN INFORMATION TYPING ARCHITECTURE SPECIFICATION AGREEMENT
+
+PLEASE READ THIS IBM DARWIN INFORMATION TYPING ARCHITECTURE
+SPECIFICATION AGREEMENT (called the "Agreement") CAREFULLY. Your receipt
+of the DTD specifications relating to the Darwin Information Typing
+Architecture (the "Specifications") and the associated documentation
+files indicates your acceptance of the following terms and conditions.
+If you do not agree to these terms and conditions, you may not accept
+the Specifications or exercise any of the rights granted hereunder.
+
+IBM hereby grants to you a worldwide, irrevocable, royalty free, non-
+exclusive license under IBM's copyrights in the Specifications, to copy,
+modify, publish and distribute the Specifications.
+
+No other licenses are granted hereunder by implication, estoppel or
+otherwise.
+
+You agree to distribute the Specifications under a license agreement
+that: 1) is sufficient to notify all licensees of the Specifications
+that IBM assumes no liability for any claim that may arise regarding the
+Specifications; and 2) disclaims all warranties, both express and
+implied, from IBM regarding the Specifications.
+
+IBM encourages your feedback and suggestions and wants to use your
+feedback to improve the Specifications.  You hereby grant to IBM a
+royalty-free, irrevocable license under all intellectual property rights
+(including copyright) to use, copy, distribute, sublicense, display,
+perform and prepare derivative works based upon any feedback, including
+modifications to the Specifications, materials, fixes, error
+corrections, enhancements, suggestions and the like that you provide to
+IBM.  You represent and warrant that you possess the necessary rights in
+the modifications and other feedback you provide to IBM to grant the
+foregoing license.
+
+IBM PROVIDES THE SPECIFICATIONS TO YOU ON AN "AS IS" BASIS, WITHOUT
+WARRANTY OF ANY KIND.   IBM EXPRESSLY DISCLAIMS ALL WARRANTIES AND
+CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, NON-INFRINGEMENT
+AND FITNESS FOR A PARTICULAR PURPOSE.
+
+NEITHER IBM NOR ITS SUPPLIERS WILL BE LIABLE FOR ANY DIRECT OR INDIRECT
+DAMAGES, INCLUDING WITHOUT LIMITATION, LOST PROFITS, LOST SAVINGS, OR
+ANY INCIDENTAL, SPECIAL, OR OTHER ECONOMIC CONSEQUENTIAL DAMAGES,  EVEN
+IF IBM IS INFORMED OF THEIR POSSIBILITY.  SOME JURISDICTIONS DO NOT
+ALLOW  THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL
+DAMAGES, SO THE ABOVE EXCLUSION OR LIMITATION MAY NOT APPLY TO YOU.
+
+This Agreement does not grant you or your licensees the right to use any
+IBM trademark or name, except for the sole purpose of providing the
+required license disclaimers.
+
+This Agreement is governed by the laws of the State of New York. You
+agree to comply with all applicable laws, rules and regulations,
+including without limitation all export and import laws, rules and
+regulations. 
+
+This Agreement is the only understanding and agreement IBM and you have
+regarding your use of the Specifications.  It supersedes all other
+communications, understandings or agreements IBM and you may have had
+prior to this Agreement.
