@@ -1,6 +1,0 @@
-C:\Users\Администратор\Desktop\LearnProject\College\С#\ЧтениеИзФайлаВXML\ЧтениеИзФайлаВXML\bin\Debug\ЧтениеИзФайлаВXML.exe.config
-C:\Users\Администратор\Desktop\LearnProject\College\С#\ЧтениеИзФайлаВXML\ЧтениеИзФайлаВXML\bin\Debug\ЧтениеИзФайлаВXML.exe
-C:\Users\Администратор\Desktop\LearnProject\College\С#\ЧтениеИзФайлаВXML\ЧтениеИзФайлаВXML\bin\Debug\ЧтениеИзФайлаВXML.pdb
-C:\Users\Администратор\Desktop\LearnProject\College\С#\ЧтениеИзФайлаВXML\ЧтениеИзФайлаВXML\obj\Debug\ЧтениеИзФайлаВXML.csprojResolveAssemblyReference.cache
-C:\Users\Администратор\Desktop\LearnProject\College\С#\ЧтениеИзФайлаВXML\ЧтениеИзФайлаВXML\obj\Debug\ЧтениеИзФайлаВXML.exe
-C:\Users\Администратор\Desktop\LearnProject\College\С#\ЧтениеИзФайлаВXML\ЧтениеИзФайлаВXML\obj\Debug\ЧтениеИзФайлаВXML.pdb
