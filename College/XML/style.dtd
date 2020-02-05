@@ -1,2 +1,0 @@
-<!ELEMENT teh (student)>
-<!ELEMENT student (#PCDATA)>
