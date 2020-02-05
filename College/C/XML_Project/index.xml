@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'utf-16'?>
+<?xml-stylesheet type = 'text/css' href = 'style.css'?>
+<teh xmlns:xsi = 'http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation = 'schema.xsd'>
+<stud>
+<fam>
+Ivanov</fam>
+<name>
+Ivan</name>
+<group>
+i-17-1</group>
+<rost>
+176</rost>
+</stud>
+<stud>
+<fam>
+Petrov</fam>
+<name>
+Vasya</name>
+<group>
+e-12-1</group>
+<rost>
+190</rost>
+</stud>
+<stud>
+<fam>
+Semenov</fam>
+<name>
+Petya</name>
+<group>
+e-15-1</group>
+<rost>
+160</rost>
+</stud>
+</teh>
