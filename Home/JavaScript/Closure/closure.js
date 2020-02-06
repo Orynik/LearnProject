@@ -1,6 +1,6 @@
 //1
 function sum(a){
-
+  return (value) => value >=a && value <=b ? true: false;
   return function(b){
     return a + b;
   }
@@ -16,8 +16,7 @@ function sum(a){
   };
   
   function inArray(arr) {
-    // ...your code...
+    return (value) => arr.includes(value);
   }
-  // console.log(arr);
-  // debugger
-  console.log( arr.filter(inBetween(3,6)))
+  console.log( arr.filter(inBetween(3,6)));
+  console.log( arr.filter(inArray([1,2,3,21])));
