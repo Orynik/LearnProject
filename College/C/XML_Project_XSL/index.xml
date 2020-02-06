@@ -1,4 +1,4 @@
-<?xml version = '1.0' encoding = 'utf-16'?>
+<?xml version = '1.0' encoding = 'utf-8'?>
 <?xml-stylesheet type = 'text/xsl' href = 'style.xsl'?>
 <teh>
 <stud>
@@ -7,7 +7,7 @@
 <group>i-17-1</group>
 <rost>176</rost>
 </stud>
-<!-- <stud>
+<stud>
 <fam>
 Petrov</fam>
 <name>
@@ -26,5 +26,5 @@ Petya</name>
 e-15-1</group>
 <rost>
 160</rost>
-</stud> -->
+</stud>
 </teh>

@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
    xmlns:xsl='http://www.w3.org/1999/XSL/Transform'>
-<xml:template match = '/'>
+<xsl:template match = '/'>
     <html>
+    <head>
+        <title>qwe</title>
+    </head>
     <body>
-    <xsl:for-each select ="/teh/stud">
-        <i><xsl:value-of select = "fam"/></i>
-        <b><xsl:value-of select = "name"/></b>  
-        <b><xsl:value-of select = "group"/></b>
-        <b><xsl:value-of select = "rost"/></b>
-    </xsl:for-each>
+
+    <table border = "2">
+        <tr>
+            <td>Фамилия</td>
+            <td>Имя</td>
+            <td>Группа</td>
+            <td>Рост</td>
+        </tr>
+        <xsl:for-each select ="teh/stud">
+            <tr>
+                <td><xsl:value-of select = "fam"/></td>
+                <td><xsl:value-of select = "name"/></td>   
+                <td><xsl:value-of select = "group"/></td>
+                <td><xsl:value-of select = "rost"/></td>
+            </tr>
+        </xsl:for-each>
+    </table>
     </body>
     </html>
-</xml:template>
+</xsl:template>
 </xsl:stylesheet> 
