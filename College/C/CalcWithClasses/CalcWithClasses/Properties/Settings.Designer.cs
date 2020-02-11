@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CalcWithClass.Properties
+namespace CalcWithClasses.Properties
 {
 
 
