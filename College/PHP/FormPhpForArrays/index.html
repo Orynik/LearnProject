@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        form{
+            margin: 0 auto;
+            height: 400px;
+            width: 500px;
+        }
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <form action="handler.php" method="post">
+        R: <input type="text" name = "R"><br>
+        H: <input type="text" name = "H">
+        <div class="container">
+            <input type="submit" value = "Площадь конуса" name = "SCone">
+            <input type="submit" value = "Площадь цилиндра" name = "SCyl">
+            <input type="submit" value = "Объем конуса" name = "VCone">
+            <input type="submit" value = "Объем цилиндра" name = "VCyl">
+        </div>
+    </form>
+</body>
+</html>
