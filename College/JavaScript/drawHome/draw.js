@@ -32,7 +32,10 @@ function draw(){
     ctx.lineTo(125,320);
     ctx.lineTo(75,320);
     ctx.lineTo(75,270);
+    ctx.stroke();
+    ctx.closePath();
     //Перегородка
+    ctx.beginPath();
     ctx.moveTo(100,270);
     ctx.lineTo(100,320);
     ctx.moveTo(125,295);
