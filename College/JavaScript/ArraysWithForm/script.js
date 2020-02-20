@@ -1,14 +1,14 @@
 "use strict";
-function CreateODArray(value){
+function CreateODArray(value,N){
     let array = [];
     let resultBlock = document.getElementById("odArray");
-    for(let i = 0;i < value;i++){
+    for(let i = 0;i < N;i++){
         array[i] = Math.round(Math.random() * (10 + 20) - 10,0);
         resultBlock.innerHTML += array[i] + "<br>";
     }
 }
 
-function CreateDDArray(value1,value2){
+function CreateDDArray(value1,value2,N){
     let array = [];
     let resultBlock = document.getElementById("ddArray");
     for(let i = 0;i <  value1;i++){
