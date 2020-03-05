@@ -2,15 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content= value = ""h=device value = ""h, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        form,.textboxes{
+            display: flex;
+        }
+        form{
+            flex-direction: column;
+        }
+        .radio{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
 </head>
 <body>
-    <form action = "Calc.php" method = "POST">
-        <fieldset>
+    <form action = "src/result.php" method = "POST">
+        <fieldset class = "textboxes">
             <legend>Калькулятор</legend>
+            <label>Ввведите число A:<br>
+                <input name = "a" type = "number" value = "0" pattern="0-9" required step = "0.1">
+            </label>
+            <label>Введите число Б:<br>
+                <input name = "b" type = "number" value = "0" pattern="0-9" required step = "0.1">
+            </label>
         </fieldset>
+        <fieldset class = "radio">
+            <legend>Выберите знак:</legend>
+            <label>
+                <input type="radio" name="Symphol" value = "Sum" checked>+
+            </label>
+            <label> 
+                <input type="radio" name="Symphol" value = "Dif">-
+            </label>
+            <label> 
+                <input type="radio" name="Symphol" value = "Mul">*
+            </label>
+            <label> 
+                <input type="radio" name="Symphol" value = "Div">/
+            </label>
+            <label> 
+                <input type="radio" name="Symphol" value = "Pow">^<sup>2</sup>
+            </label>
+        </fieldset>
+        <input type ="submit">
     </form>
 </body>
 </html>
