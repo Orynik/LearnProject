@@ -7,7 +7,7 @@
             $my = new Calc();
             for($i =0; $i < count($value1);$i++){
                 for($k =0; $k < count($value2);$k++){
-                    $this->assertSame($value1[$i] * $value2[$k],$my->DefiningAction($value1[$i],$value2[$k],"Mul"));
+                    $this->assertSame($value1[$i] * $value2[$k],$my->DefiningAction($value1[$i],$value2[$k],"*"));
                 }
             }
         }
@@ -18,7 +18,7 @@
             $my = new Calc();
             for($i =0; $i < count($value1);$i++){
                 for($k =0; $k < count($value2);$k++){
-                    $this->assertSame($value1[$i] + $value2[$k],$my->DefiningAction($value1[$i],$value2[$k],"Sum"));
+                    $this->assertSame($value1[$i] + $value2[$k],$my->DefiningAction($value1[$i],$value2[$k],"+"));
                 }
             }
         }
@@ -28,7 +28,7 @@
             $my = new Calc();
             for($i =0; $i < count($value1);$i++){
                 for($k =0; $k < count($value2);$k++){
-                    $this->assertSame($value1[$i] / $value2[$k],$my->DefiningAction($value1[$i],$value2[$k],"Div"));
+                    $this->assertSame($value1[$i] / $value2[$k],$my->DefiningAction($value1[$i],$value2[$k],"/"));
                 }
             }
         }
@@ -38,7 +38,7 @@
             $my = new Calc();
             for($i =0; $i < count($value1);$i++){
                 for($k =0; $k < count($value2);$k++){
-                    $this->assertSame($value1[$i] - $value2[$k],$my->DefiningAction($value1[$i],$value2[$k],"Dif"));
+                    $this->assertSame($value1[$i] - $value2[$k],$my->DefiningAction($value1[$i],$value2[$k],"-"));
                 }
             }
         }
@@ -47,7 +47,7 @@
             $value2 = 3;        
             $my = new Calc();
             for($i =0; $i < count($value1);$i++){
-                $this->assertSame(Pow($value1[$i],2),$my->DefiningAction($value1[$i],$value2,"Pow"));
+                $this->assertSame(Pow($value1[$i],2),$my->DefiningAction($value1[$i],$value2,"^"));
             }
         }
     }

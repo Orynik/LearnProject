@@ -7,19 +7,19 @@ class Calc {
 	public function DefiningAction($first, $second, $sym) {
 
 		switch($sym){
-			case "Sum":
+			case "+":
 				$result = self::Sum($first,$second);
 				break;
-			case "Dif":
+			case "-":
 				$result = self::Difference($first,$second);
 				break;
-			case "Mul":
+			case "*":
 				$result = self::Multiplication($first,$second);
 				break;
-			case "Div":
+			case "/":
 				$result = self::Division($first,$second);
 				break;
-			case "Pow":
+			case "^":
 				$result = self::Pows($first);
 				break;
 			default: 

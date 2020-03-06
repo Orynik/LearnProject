@@ -1,3 +1,28 @@
+
+//Код calc.php
+<?php
+class Calc {
+	public $a;
+	public $b;
+	public $result;
+	 
+	public function DefiningAction($first, $second, $sym) {
+
+		switch($sym){
+			case "+":
+				$result = self::Sum($first,$second);
+				break;
+		}
+		return $result;
+	}
+
+	public function Sum($a, $b) {
+		return $a + $b;
+	}
+}
+?>
+
+//Form.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,22 +57,27 @@
         <fieldset class = "radio">
             <legend>Выберите знак:</legend>
             <label>
-                <input type="radio" name="Symphol" value = "+" checked>+
-            </label>
-            <label> 
-                <input type="radio" name="Symphol" value = "-">-
-            </label>
-            <label> 
-                <input type="radio" name="Symphol" value = "*">*
-            </label>
-            <label> 
-                <input type="radio" name="Symphol" value = "/">/
-            </label>
-            <label> 
-                <input type="radio" name="Symphol" value = "^">N<sup>2</sup>
+                <input type="radio" name="Symphol" value = "Sum" checked>+
             </label>
         </fieldset>
         <input type ="submit">
     </form>
 </body>
 </html>
+
+//Unit тест
+<?php
+    use PHPUnit\Framework\TestCase;
+    class CalcTest extends TestCase{
+        public function testSumOk(){
+            $value1 = [1,2,3,4,5,6,7,8,9,10];
+            $value2= [2,2.5,2.9,3];        
+            $my = new Calc();
+            for($i =0; $i < count($value1);$i++){
+                for($k =0; $k < count($value2);$k++){
+                    $this->assertSame($value1[$i] + $value2[$k],$my->DefiningAction($value1[$i],$value2[$k],"+"));
+                }
+            }
+        }
+    }
+?>

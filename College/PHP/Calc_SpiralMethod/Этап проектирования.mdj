@@ -14371,7 +14371,7 @@
 													"top": 223,
 													"width": 274.2783203125,
 													"height": 14,
-													"text": "+Pow(a: int): int",
+													"text": "+Pows(a: int): int",
 													"horizontalAlignment": 0
 												}
 											],
@@ -14673,7 +14673,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFwqGFmpDEJCmM="
 									},
-									"name": "Pow",
+									"name": "Pows",
 									"parameters": [
 										{
 											"_type": "UMLParameter",
@@ -17460,7 +17460,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwqJLQn/2C52g="
 							},
-							"name": "Role3"
+							"name": "Role3",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -17468,7 +17469,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwqJLQn/2C52g="
 							},
-							"name": "Role4"
+							"name": "Role4",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -17476,7 +17478,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFwqJLQn/2C52g="
 							},
-							"name": "Role5"
+							"name": "Role5",
+							"type": ""
 						}
 					]
 				}

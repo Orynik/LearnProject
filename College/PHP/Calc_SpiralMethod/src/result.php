@@ -8,6 +8,10 @@ $calc = new Calc();
 
 $result = $calc->DefiningAction($a,$b,$sym);
 
-echo $result . "<br>";
+if($sym == "^"){
+    $b = $a;
+}
+
+echo "$a $sym $b = $result<br>";
 echo "<a href = '../index.html'>Вернуться к форме</a>";
 ?>
